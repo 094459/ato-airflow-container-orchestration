@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::all-things-open-2023"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "rds:*",
+            "Resource": "*"
+        }
+    ]
+}
